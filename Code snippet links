@@ -2,6 +2,8 @@ Block -1 >>> https://levelup.gitconnected.com/22-code-snippets-that-every-python
 
 Python time module - https://realpython.com/python-time-module/\
 
+Stack over flow link - https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution
+
 
 Program - 1 - import time
               start_time = time.perf_counter()
