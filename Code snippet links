@@ -1,6 +1,29 @@
 Block -1 >>> https://levelup.gitconnected.com/22-code-snippets-that-every-python-programmer-must-learn-b7f7ec35e9df
 
-Python time module - https://realpython.com/python-time-module/
+Python time module - https://realpython.com/python-time-module/\
 
+
+Program - 1 - import time
+              start_time = time.perf_counter()
+              [main code here]
+              print (time.perf_counter() - start_time, "seconds")
+              
+ Program -2 - import datetime
+              sec = 9506
+              convert = str(datetime.timedelta(seconds = sec))
+              print(convert)
+ 
+ Program -3 - import time
+              seconds = 52910
+              convert = time.strftime("%H:%M:%S", time.gmtime(seconds))
+              print(convert)
+              
+Program - 4 - from humanfriendly import format_timespan
+              import time
+              begin_time = time.time()
+              # Put your code here
+              end_time = time.time() - begin_time
+              print("Total execution time: ", format_timespan(end_time))
+              
 
 
