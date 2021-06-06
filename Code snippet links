@@ -28,4 +28,5 @@ Program - 4 - from humanfriendly import format_timespan
               print("Total execution time: ", format_timespan(end_time))
               
 
+Python tricks added -- https://betterprogramming.pub/10-python-tricks-that-will-wow-you-de450921d96a
 
